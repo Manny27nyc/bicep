@@ -27,6 +27,9 @@ namespace Bicep.Core.Syntax
 
         public static bool NameEquals(this FunctionCallSyntax funcSyntax, string compareTo)
             => LanguageConstants.IdentifierComparer.Equals(funcSyntax.Name.IdentifierName, compareTo);
+
+        public static bool NameEquals(this IdentifierSyntax identifier, string compareTo)
+            => LanguageConstants.IdentifierComparer.Equals(identifier.IdentifierName, compareTo);
     }
 }
 

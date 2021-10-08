@@ -152,6 +152,13 @@
   <data name="InterpolateNotConcatRuleDescription" xml:space="preserve">
     <value>Use string interpolation instead of the concat function.</value>
   </data>
+  <data name="NoUnnecessaryDependsOnRuleDescription" xml:space="preserve">
+    <value>Remove unnecessary dependsOn.</value>
+  </data>
+  <data name="NoUnnecessaryDependsOnRuleMessaage" xml:space="preserve">
+    <value>Remove unnecessary dependsOn entry '{0}'.</value>
+    <comment>{0} is a programmatic expression</comment>
+  </data>
   <data name="LinterDisabledFormatMessage" xml:space="preserve">
     <value>Linter is disabled in settings file located at {0} </value>
     <comment>{0} is the location of the settings file</comment>
@@ -175,9 +182,6 @@
   </data>
   <data name="SimplifyInterpolationRuleDescription" xml:space="preserve">
     <value>Remove unnecessary string interpolation.</value>
-  </data>
-  <data name="UnnecessaryDependsOnRuleDescription" xml:space="preserve">
-    <value>Remove unnecessary dependsOn.</value>
   </data>
   <data name="UnusedVariableRuleDescription" xml:space="preserve">
     <value>Variable is declared but never used.</value>
