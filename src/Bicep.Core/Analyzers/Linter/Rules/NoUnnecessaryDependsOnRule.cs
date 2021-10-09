@@ -103,7 +103,7 @@ namespace Bicep.Core.Analyzers.Linter.Rules
                     }
                 }
 
-                // Note: PropertiesVisitor will navigate through all child resources, so don't call base
+                base.VisitResourceDeclarationSyntax(syntax);
             }
         }
 
